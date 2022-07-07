@@ -5,8 +5,7 @@ go 1.17
 require (
 	github.com/Nerzal/gocloak/v11 v11.2.0
 	github.com/antihax/optional v1.0.0
-	github.com/auth0/go-jwt-middleware v0.0.0-20190805220309-36081240882b
-	github.com/aws/aws-sdk-go v1.36.5
+	github.com/aws/aws-sdk-go v1.44.43
 	github.com/aws/aws-secretsmanager-caching-go v1.1.0
 	github.com/blang/semver/v4 v4.0.0
 	github.com/bxcodec/faker/v3 v3.8.0
@@ -14,7 +13,7 @@ require (
 	github.com/cucumber/messages-go/v10 v10.0.3
 	github.com/docker/go-healthcheck v0.1.0
 	github.com/dustinkirkland/golang-petname v0.0.0-20191129215211-8e5a1ed0cff0
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/getsentry/sentry-go v0.3.1
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-gormigrate/gormigrate/v2 v2.0.0
@@ -23,10 +22,10 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.4.1
 	github.com/golang/glog v1.0.0
 	github.com/google/uuid v1.3.0
-	github.com/gorilla/handlers v1.4.2
+	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
 	github.com/itchyny/gojq v0.12.7
-	github.com/lib/pq v1.10.5
+	github.com/lib/pq v1.10.6
 	github.com/looplab/fsm v0.3.0
 	github.com/mattn/go-sqlite3 v1.14.3 // indirect
 	github.com/mendsley/gojwk v0.0.0-20141217222730-4d5ec6e58103
@@ -38,7 +37,7 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.0
-	github.com/prometheus/client_golang v1.12.1
+	github.com/prometheus/client_golang v1.12.2
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.35.0
 	github.com/redhat-developer/app-services-sdk-go/serviceaccounts v0.4.0
@@ -46,18 +45,17 @@ require (
 	github.com/santhosh-tekuri/jsonschema/v3 v3.0.1
 	github.com/selvatico/go-mocket v1.0.7
 	github.com/senseyeio/duration v0.0.0-20180430131211-7c2a214ada46
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.5.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spyzhov/ajson v0.4.2
 	github.com/xeipuuv/gojsonschema v1.2.0
-	github.com/zgalor/weberr v0.6.0
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
 	gopkg.in/resty.v1 v1.12.0
 	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/driver/postgres v1.0.8
 	gorm.io/gorm v1.21.7
-	k8s.io/api v0.21.2
-	k8s.io/apimachinery v0.21.2
+	k8s.io/api v0.24.2
+	k8s.io/apimachinery v0.24.2
 	k8s.io/client-go v0.21.2
 	sigs.k8s.io/yaml v1.3.0
 )
@@ -71,14 +69,14 @@ require (
 	github.com/cucumber/gherkin-go/v19 v19.0.3 // indirect
 	github.com/cucumber/messages-go/v16 v16.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
-	github.com/docker/distribution v2.7.1+incompatible // indirect
-	github.com/go-logr/logr v0.4.0 // indirect
+	github.com/docker/distribution v2.8.1+incompatible // indirect
+	github.com/felixge/httpsnoop v1.0.1 // indirect
+	github.com/go-logr/logr v1.2.0 // indirect
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/googleapis/gnostic v0.4.1 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
@@ -119,12 +117,13 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/klog/v2 v2.8.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7 // indirect
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920 // indirect
+	k8s.io/klog/v2 v2.60.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
 	sigs.k8s.io/controller-runtime v0.6.0 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.1.0 // indirect
+	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
